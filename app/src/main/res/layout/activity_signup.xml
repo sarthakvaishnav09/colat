@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff4E81CE"
+    tools:context=".signup">
+
+    <EditText
+        android:id="@+id/signup_email"
+        android:layout_width="339dp"
+        android:layout_height="43dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="41dp"
+        android:background="#ffffffff"
+        android:ems="10"
+        android:hint="  Enter Your Email"
+        android:inputType="textEmailAddress"
+        android:textStyle="italic"/>
+
+    <EditText
+        android:id="@+id/signup_password"
+        android:layout_width="339dp"
+        android:layout_height="43dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="116dp"
+        android:layout_marginRight="42dp"
+        android:background="#ffffffff"
+        android:ems="10"
+        android:hint="  Create Password"
+        android:inputType="textPassword"
+        android:textStyle="italic"/>
+
+    <EditText
+        android:id="@+id/signup_password2"
+        android:layout_width="339dp"
+        android:layout_height="43dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="178dp"
+        android:layout_marginRight="41dp"
+        android:background="#ffffffff"
+        android:ems="10"
+        android:hint="  Re-Create Password"
+        android:inputType="textPassword"
+        android:textStyle="italic"/>
+
+    <EditText
+        android:id="@+id/signup_name"
+        android:layout_width="339dp"
+        android:layout_height="43dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="239dp"
+        android:layout_marginRight="41dp"
+        android:background="#ffffffff"
+        android:ems="10"
+        android:hint="  Enter you name"
+        android:inputType="textPersonName"
+        android:textStyle="italic"/>
+
+    <EditText
+        android:id="@+id/signup_age"
+        android:layout_width="339dp"
+        android:layout_height="43dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="#ffffffff"
+        android:layout_marginTop="300dp"
+        android:hint="  Enter Your Age"
+        android:layout_marginRight="41dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/signup_address"
+        android:layout_width="335dp"
+        android:layout_height="148dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="359dp"
+        android:layout_marginRight="45dp"
+        android:background="#ffffffff"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="  Enter Address"
+        android:inputType="textMultiLine"
+        android:textStyle="italic"/>
+
+    <Button
+        android:id="@+id/signup_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="545dp"
+        android:layout_marginRight="167dp"
+        android:background="#ffBEEFFF"
+        android:text="JOIN" />
+
+
+</RelativeLayout>

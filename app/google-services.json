@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "56243926221",
+    "firebase_url": "https://colat-6f57e.firebaseio.com",
+    "project_id": "colat-6f57e",
+    "storage_bucket": "colat-6f57e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:56243926221:android:06753fdb73438c9488a584",
+        "android_client_info": {
+          "package_name": "com.example.colat_citizen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "56243926221-kok7herd8harkem4f8pct9nogbk2o7n8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.colat_citizen",
+            "certificate_hash": "83ba01f98c8a383d79f0d43148691b9914280c62"
+          }
+        },
+        {
+          "client_id": "56243926221-pnsp64r2ol44fngcpm8usa3lj33u1f8u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDkBJu9WzmpwMSuVghmkrgqpU0_iRHq4o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "56243926221-pnsp64r2ol44fngcpm8usa3lj33u1f8u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

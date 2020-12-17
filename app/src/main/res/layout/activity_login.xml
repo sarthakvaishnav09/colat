@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff4FFFFE"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="260dp"
+        android:layout_height="179dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="50dp"
+        android:contentDescription="TODO"
+        app:srcCompat="@drawable/colat_logo" />
+
+    <EditText
+        android:id="@+id/login_email"
+        android:layout_width="339dp"
+        android:layout_height="43dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="300dp"
+        android:layout_marginRight="41dp"
+        android:background="#ffffffff"
+        android:ems="10"
+        android:hint="  Enter Your Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/login_password"
+        android:layout_width="339dp"
+        android:layout_height="43dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+
+        android:layout_marginTop="370dp"
+        android:layout_marginRight="41dp"
+        android:background="#ffffffff"
+        android:ems="10"
+        android:hint="  Enter Your Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/login_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="456dp"
+        android:layout_marginRight="162dp"
+        android:background="#ffBEEFFF"
+        android:text="LOGIN"
+        />
+
+    <TextView
+        android:id="@+id/signText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="568dp"
+        android:layout_marginRight="105dp"
+        android:text="Sign up? CLick here"
+        android:textColor="#ff000000"
+        android:textSize="22sp"
+        android:textStyle="bold|italic"
+        android:onClick="SendUserToSignupPage"/>
+</RelativeLayout>
